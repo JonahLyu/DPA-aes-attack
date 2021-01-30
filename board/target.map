@@ -1,0 +1,360 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/vagrant/share/COMS30010_LAB/scale-hw/target/lpc1313fbd48/build/lib/libscale.a(scale.o)
+                              /tmp/ccSZWKzS.o (scale_init)
+/home/vagrant/share/COMS30010_LAB/scale-hw/target/lpc1313fbd48/build/lib/libscale.a(bsp.o)
+                              /home/vagrant/share/COMS30010_LAB/scale-hw/target/lpc1313fbd48/build/lib/libscale.a(scale.o) (scale_conf)
+/home/vagrant/share/COMS30010_LAB/scale-hw/target/lpc1313fbd48/build/lib/libscale.a(lpc13xx.o)
+                              /home/vagrant/share/COMS30010_LAB/scale-hw/target/lpc1313fbd48/build/lib/libscale.a(scale.o) (LPC13XX_SYSCON)
+/home/vagrant/share/COMS30010_LAB/scale-hw/target/lpc1313fbd48/build/lib/libscale.a(crt0.o)
+                              (__irq_vector)
+/opt/gcc-arm-none-eabi/7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-itoa.o)
+                              /tmp/ccSZWKzS.o (itoa)
+/opt/gcc-arm-none-eabi/7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-locale.o)
+                              /tmp/ccSZWKzS.o (__locale_ctype_ptr)
+/opt/gcc-arm-none-eabi/7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-mbtowc_r.o)
+                              /opt/gcc-arm-none-eabi/7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-locale.o) (__ascii_mbtowc)
+/opt/gcc-arm-none-eabi/7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-memcmp.o)
+                              /tmp/ccSZWKzS.o (memcmp)
+/opt/gcc-arm-none-eabi/7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-strcmp.o)
+                              /opt/gcc-arm-none-eabi/7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-locale.o) (strcmp)
+/opt/gcc-arm-none-eabi/7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-strlen-stub.o)
+                              /tmp/ccSZWKzS.o (strlen)
+/opt/gcc-arm-none-eabi/7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-strtol.o)
+                              /tmp/ccSZWKzS.o (strtol)
+/opt/gcc-arm-none-eabi/7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-utoa.o)
+                              /opt/gcc-arm-none-eabi/7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-itoa.o) (__utoa)
+/opt/gcc-arm-none-eabi/7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-wctomb_r.o)
+                              /opt/gcc-arm-none-eabi/7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-locale.o) (__ascii_wctomb)
+/opt/gcc-arm-none-eabi/7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-ctype_.o)
+                              /opt/gcc-arm-none-eabi/7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-locale.o) (_ctype_)
+/opt/gcc-arm-none-eabi/7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-impure.o)
+                              /opt/gcc-arm-none-eabi/7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-locale.o) (_impure_ptr)
+
+Allocating common symbols
+Common symbol       size              file
+
+mask_p              0x5               /tmp/ccSZWKzS.o
+mask                0x5               /tmp/ccSZWKzS.o
+scale_conf          0x4               /home/vagrant/share/COMS30010_LAB/scale-hw/target/lpc1313fbd48/build/lib/libscale.a(bsp.o)
+sbox_masked         0x100             /tmp/ccSZWKzS.o
+rk_masked           0xb0              /tmp/ccSZWKzS.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+rom              0x0000000000000000 0x0000000000008000 xr
+ram              0x0000000010000000 0x0000000000002000 xrw
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /tmp/ccSZWKzS.o
+LOAD /home/vagrant/share/COMS30010_LAB/scale-hw/target/lpc1313fbd48/build/lib/libscale.a
+START GROUP
+LOAD /opt/gcc-arm-none-eabi/7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a
+LOAD /opt/gcc-arm-none-eabi/7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a
+END GROUP
+                0x0000000000000000                . = 0x0
+
+.text           0x0000000000000000     0x1814
+                0x0000000000000000                __head_text = .
+ *(.data.__irq_handler)
+ .data.__irq_handler
+                0x0000000000000000       0x40 /home/vagrant/share/COMS30010_LAB/scale-hw/target/lpc1313fbd48/build/lib/libscale.a(crt0.o)
+                0x0000000000000000                __irq_vector
+ *(.text.__irq_handler)
+ .text.__irq_handler
+                0x0000000000000040       0x48 /home/vagrant/share/COMS30010_LAB/scale-hw/target/lpc1313fbd48/build/lib/libscale.a(crt0.o)
+                0x0000000000000040                __irq_handler_nul
+                0x0000000000000042                __irq_handler_rst
+ *(.text*)
+ .text          0x0000000000000088      0x6bc /tmp/ccSZWKzS.o
+                0x0000000000000088                octetstr_rd
+                0x00000000000000ec                octetstr_wr
+                0x00000000000001ce                aes_enc_exp_step
+                0x000000000000024c                aes_enc_rnd_key
+                0x0000000000000270                aes_enc_rnd_sub
+                0x0000000000000288                aes_enc_rnd_row
+                0x00000000000002bc                aes_enc_rnd_mix
+                0x0000000000000348                U8_TO_U8_N
+                0x000000000000035a                keyExpand
+                0x0000000000000388                remasking
+                0x00000000000003cc                cal_MixColMask
+                0x0000000000000444                cal_SboxMask
+                0x0000000000000478                updateMask
+                0x00000000000004cc                aes_sbox
+                0x0000000000000580                aes_init
+                0x00000000000005e8                print
+                0x0000000000000604                check
+ .text.startup  0x0000000000000744       0xcc /tmp/ccSZWKzS.o
+                0x0000000000000744                main
+ .text          0x0000000000000810      0x4cc /home/vagrant/share/COMS30010_LAB/scale-hw/target/lpc1313fbd48/build/lib/libscale.a(scale.o)
+                0x0000000000000810                scale_init
+                0x0000000000000ab4                scale_delay_us
+                0x0000000000000ad0                scale_delay_ms
+                0x0000000000000ae8                scale_tsc
+                0x0000000000000af8                scale_gpio_rd
+                0x0000000000000b34                scale_gpio_wr
+                0x0000000000000b84                scale_uart_rd_avail
+                0x0000000000000b94                scale_uart_wr_avail
+                0x0000000000000ba4                scale_uart_rd
+                0x0000000000000bbc                scale_uart_wr
+                0x0000000000000bd4                scale_i2c_fsm
+                0x0000000000000cc8                scale_i2c_rd
+                0x0000000000000cd2                scale_i2c_wr
+ .text          0x0000000000000cdc        0x0 /home/vagrant/share/COMS30010_LAB/scale-hw/target/lpc1313fbd48/build/lib/libscale.a(bsp.o)
+ .text          0x0000000000000cdc        0x0 /home/vagrant/share/COMS30010_LAB/scale-hw/target/lpc1313fbd48/build/lib/libscale.a(lpc13xx.o)
+ .text.lpc13xx  0x0000000000000cdc        0x8 /home/vagrant/share/COMS30010_LAB/scale-hw/target/lpc1313fbd48/build/lib/libscale.a(lpc13xx.o)
+                0x0000000000000cdc                lpc13xx_irq_enable
+                0x0000000000000ce0                lpc13xx_irq_unable
+ .text          0x0000000000000ce4        0x0 /home/vagrant/share/COMS30010_LAB/scale-hw/target/lpc1313fbd48/build/lib/libscale.a(crt0.o)
+ .text.__start  0x0000000000000ce4        0xa /home/vagrant/share/COMS30010_LAB/scale-hw/target/lpc1313fbd48/build/lib/libscale.a(crt0.o)
+                0x0000000000000ce4                __start
+ .text          0x0000000000000cee        0x0 /opt/gcc-arm-none-eabi/7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-itoa.o)
+ *fill*         0x0000000000000cee        0x2 
+ .text.__itoa   0x0000000000000cf0       0x3c /opt/gcc-arm-none-eabi/7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-itoa.o)
+                0x0000000000000cf0                __itoa
+ .text.itoa     0x0000000000000d2c        0x4 /opt/gcc-arm-none-eabi/7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-itoa.o)
+                0x0000000000000d2c                itoa
+ .text          0x0000000000000d30        0x0 /opt/gcc-arm-none-eabi/7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-locale.o)
+ .text._setlocale_r
+                0x0000000000000d30       0x40 /opt/gcc-arm-none-eabi/7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-locale.o)
+                0x0000000000000d30                _setlocale_r
+ .text.__locale_mb_cur_max
+                0x0000000000000d70       0x1c /opt/gcc-arm-none-eabi/7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-locale.o)
+                0x0000000000000d70                __locale_mb_cur_max
+ .text.__locale_ctype_ptr_l
+                0x0000000000000d8c        0x8 /opt/gcc-arm-none-eabi/7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-locale.o)
+                0x0000000000000d8c                __locale_ctype_ptr_l
+ .text.__locale_ctype_ptr
+                0x0000000000000d94       0x1c /opt/gcc-arm-none-eabi/7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-locale.o)
+                0x0000000000000d94                __locale_ctype_ptr
+ .text.setlocale
+                0x0000000000000db0       0x10 /opt/gcc-arm-none-eabi/7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-locale.o)
+                0x0000000000000db0                setlocale
+ .text          0x0000000000000dc0        0x0 /opt/gcc-arm-none-eabi/7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-mbtowc_r.o)
+ .text._mbtowc_r
+                0x0000000000000dc0       0x24 /opt/gcc-arm-none-eabi/7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-mbtowc_r.o)
+                0x0000000000000dc0                _mbtowc_r
+ .text.__ascii_mbtowc
+                0x0000000000000de4       0x2c /opt/gcc-arm-none-eabi/7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-mbtowc_r.o)
+                0x0000000000000de4                __ascii_mbtowc
+ .text          0x0000000000000e10        0x0 /opt/gcc-arm-none-eabi/7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-memcmp.o)
+ .text.memcmp   0x0000000000000e10       0x64 /opt/gcc-arm-none-eabi/7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-memcmp.o)
+                0x0000000000000e10                memcmp
+ .text          0x0000000000000e74      0x1bc /opt/gcc-arm-none-eabi/7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-strcmp.o)
+                0x0000000000000e74                strcmp
+ .text          0x0000000000001030        0x0 /opt/gcc-arm-none-eabi/7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-strlen-stub.o)
+ .text.strlen   0x0000000000001030       0x5c /opt/gcc-arm-none-eabi/7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-strlen-stub.o)
+                0x0000000000001030                strlen
+ .text          0x000000000000108c        0x0 /opt/gcc-arm-none-eabi/7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-strtol.o)
+ .text._strtol_l.isra.0
+                0x000000000000108c      0x124 /opt/gcc-arm-none-eabi/7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-strtol.o)
+ .text._strtol_r
+                0x00000000000011b0       0x24 /opt/gcc-arm-none-eabi/7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-strtol.o)
+                0x00000000000011b0                _strtol_r
+ .text.strtol_l
+                0x00000000000011d4       0x20 /opt/gcc-arm-none-eabi/7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-strtol.o)
+                0x00000000000011d4                strtol_l
+ .text.strtol   0x00000000000011f4       0x2c /opt/gcc-arm-none-eabi/7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-strtol.o)
+                0x00000000000011f4                strtol
+ .text          0x0000000000001220        0x0 /opt/gcc-arm-none-eabi/7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-utoa.o)
+ .text.__utoa   0x0000000000001220       0x80 /opt/gcc-arm-none-eabi/7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-utoa.o)
+                0x0000000000001220                __utoa
+ .text.utoa     0x00000000000012a0        0x4 /opt/gcc-arm-none-eabi/7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-utoa.o)
+                0x00000000000012a0                utoa
+ .text          0x00000000000012a4        0x0 /opt/gcc-arm-none-eabi/7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-wctomb_r.o)
+ .text._wctomb_r
+                0x00000000000012a4       0x24 /opt/gcc-arm-none-eabi/7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-wctomb_r.o)
+                0x00000000000012a4                _wctomb_r
+ .text.__ascii_wctomb
+                0x00000000000012c8       0x18 /opt/gcc-arm-none-eabi/7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-wctomb_r.o)
+                0x00000000000012c8                __ascii_wctomb
+ .text          0x00000000000012e0        0x0 /opt/gcc-arm-none-eabi/7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-ctype_.o)
+ .text          0x00000000000012e0        0x0 /opt/gcc-arm-none-eabi/7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-impure.o)
+ *(.text.*)
+ *(.rodata*)
+ .rodata        0x00000000000012e0      0x354 /tmp/ccSZWKzS.o
+                0x00000000000012e0                sbox
+                0x00000000000013e0                mul2
+                0x00000000000014e0                mul3
+ .rodata.str1.1
+                0x0000000000001634       0x9f /tmp/ccSZWKzS.o
+ *fill*         0x00000000000016d3        0x1 
+ .rodata._setlocale_r.str1.4
+                0x00000000000016d4        0xa /opt/gcc-arm-none-eabi/7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-locale.o)
+                                          0xd (size before relaxing)
+ *fill*         0x00000000000016de        0x2 
+ .rodata.str1.4
+                0x00000000000016e0        0x2 /opt/gcc-arm-none-eabi/7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-locale.o)
+ *fill*         0x00000000000016e2        0x2 
+ .rodata.__utoa.str1.4
+                0x00000000000016e4       0x28 /opt/gcc-arm-none-eabi/7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-utoa.o)
+                                         0x25 (size before relaxing)
+ .rodata._ctype_
+                0x000000000000170c      0x101 /opt/gcc-arm-none-eabi/7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-ctype_.o)
+                0x000000000000170c                _ctype_
+ *fill*         0x000000000000180d        0x3 
+ .rodata._global_impure_ptr
+                0x0000000000001810        0x4 /opt/gcc-arm-none-eabi/7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-impure.o)
+                0x0000000000001810                _global_impure_ptr
+ *(.rodata.*)
+                0x0000000000001814                . = ALIGN (0x4)
+                0x0000000000001814                __foot_text = .
+
+.glue_7         0x0000000000001814        0x0
+ .glue_7        0x0000000000001814        0x0 linker stubs
+
+.glue_7t        0x0000000000001814        0x0
+ .glue_7t       0x0000000000001814        0x0 linker stubs
+
+.vfp11_veneer   0x0000000000001814        0x0
+ .vfp11_veneer  0x0000000000001814        0x0 linker stubs
+
+.v4_bx          0x0000000000001814        0x0
+ .v4_bx         0x0000000000001814        0x0 linker stubs
+
+.iplt           0x0000000000001814        0x0
+ .iplt          0x0000000000001814        0x0 /tmp/ccSZWKzS.o
+
+.rel.dyn        0x0000000000001814        0x0
+ .rel.iplt      0x0000000000001814        0x0 /tmp/ccSZWKzS.o
+
+.data           0x0000000010000000      0x5d0 load address 0x0000000000001820
+                0x0000000010000000                __head_data = .
+ *(.data)
+ .data          0x0000000010000000        0xb /tmp/ccSZWKzS.o
+                0x0000000010000000                AES_RC
+ .data          0x000000001000000b        0x4 /home/vagrant/share/COMS30010_LAB/scale-hw/target/lpc1313fbd48/build/lib/libscale.a(scale.o)
+                0x000000001000000b                SCALE_CONF
+ .data          0x000000001000000f        0x0 /home/vagrant/share/COMS30010_LAB/scale-hw/target/lpc1313fbd48/build/lib/libscale.a(bsp.o)
+ .data          0x000000001000000f        0x0 /home/vagrant/share/COMS30010_LAB/scale-hw/target/lpc1313fbd48/build/lib/libscale.a(lpc13xx.o)
+ .data          0x000000001000000f        0x0 /home/vagrant/share/COMS30010_LAB/scale-hw/target/lpc1313fbd48/build/lib/libscale.a(crt0.o)
+ .data          0x000000001000000f        0x0 /opt/gcc-arm-none-eabi/7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-itoa.o)
+ .data          0x000000001000000f        0x0 /opt/gcc-arm-none-eabi/7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-locale.o)
+ .data          0x000000001000000f        0x0 /opt/gcc-arm-none-eabi/7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-mbtowc_r.o)
+ .data          0x000000001000000f        0x0 /opt/gcc-arm-none-eabi/7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-memcmp.o)
+ .data          0x000000001000000f        0x0 /opt/gcc-arm-none-eabi/7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-strcmp.o)
+ .data          0x000000001000000f        0x0 /opt/gcc-arm-none-eabi/7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-strlen-stub.o)
+ .data          0x000000001000000f        0x0 /opt/gcc-arm-none-eabi/7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-strtol.o)
+ .data          0x000000001000000f        0x0 /opt/gcc-arm-none-eabi/7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-utoa.o)
+ .data          0x000000001000000f        0x0 /opt/gcc-arm-none-eabi/7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-wctomb_r.o)
+ .data          0x000000001000000f        0x0 /opt/gcc-arm-none-eabi/7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-ctype_.o)
+ .data          0x000000001000000f        0x0 /opt/gcc-arm-none-eabi/7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-impure.o)
+ *(.data.*)
+ .data.lpc13xx  0x000000001000000f       0x28 /home/vagrant/share/COMS30010_LAB/scale-hw/target/lpc1313fbd48/build/lib/libscale.a(lpc13xx.o)
+                0x000000001000000f                LPC13XX_SYSCON
+                0x0000000010000013                LPC13XX_IOCON
+                0x0000000010000017                LPC13XX_GPIO0
+                0x000000001000001b                LPC13XX_GPIO1
+                0x000000001000001f                LPC13XX_GPIO2
+                0x0000000010000023                LPC13XX_GPIO3
+                0x0000000010000027                LPC13XX_UART
+                0x000000001000002b                LPC13XX_I2C
+                0x000000001000002f                LPC13XX_FMC
+                0x0000000010000033                LPC13XX_SYSTICK
+ *fill*         0x0000000010000037        0x1 
+ .data.__global_locale
+                0x0000000010000038      0x16c /opt/gcc-arm-none-eabi/7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-locale.o)
+                0x0000000010000038                __global_locale
+ .data._impure_ptr
+                0x00000000100001a4        0x4 /opt/gcc-arm-none-eabi/7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-impure.o)
+                0x00000000100001a4                _impure_ptr
+ .data.impure_data
+                0x00000000100001a8      0x428 /opt/gcc-arm-none-eabi/7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-impure.o)
+                0x00000000100005d0                . = ALIGN (0x4)
+                0x00000000100005d0                __foot_data = .
+
+.igot.plt       0x00000000100005d0        0x0 load address 0x0000000000001df0
+ .igot.plt      0x00000000100005d0        0x0 /tmp/ccSZWKzS.o
+
+.bss            0x00000000100005d0      0x1c2 load address 0x0000000000001df0
+                0x00000000100005d0                __head_bss = .
+ *(.bss)
+ .bss           0x00000000100005d0        0x0 /tmp/ccSZWKzS.o
+ .bss           0x00000000100005d0        0x0 /home/vagrant/share/COMS30010_LAB/scale-hw/target/lpc1313fbd48/build/lib/libscale.a(scale.o)
+ .bss           0x00000000100005d0        0x0 /home/vagrant/share/COMS30010_LAB/scale-hw/target/lpc1313fbd48/build/lib/libscale.a(bsp.o)
+ .bss           0x00000000100005d0        0x0 /home/vagrant/share/COMS30010_LAB/scale-hw/target/lpc1313fbd48/build/lib/libscale.a(lpc13xx.o)
+ .bss           0x00000000100005d0        0x0 /home/vagrant/share/COMS30010_LAB/scale-hw/target/lpc1313fbd48/build/lib/libscale.a(crt0.o)
+ .bss           0x00000000100005d0        0x0 /opt/gcc-arm-none-eabi/7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-itoa.o)
+ .bss           0x00000000100005d0        0x0 /opt/gcc-arm-none-eabi/7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-locale.o)
+ .bss           0x00000000100005d0        0x0 /opt/gcc-arm-none-eabi/7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-mbtowc_r.o)
+ .bss           0x00000000100005d0        0x0 /opt/gcc-arm-none-eabi/7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-memcmp.o)
+ .bss           0x00000000100005d0        0x0 /opt/gcc-arm-none-eabi/7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-strcmp.o)
+ .bss           0x00000000100005d0        0x0 /opt/gcc-arm-none-eabi/7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-strlen-stub.o)
+ .bss           0x00000000100005d0        0x0 /opt/gcc-arm-none-eabi/7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-strtol.o)
+ .bss           0x00000000100005d0        0x0 /opt/gcc-arm-none-eabi/7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-utoa.o)
+ .bss           0x00000000100005d0        0x0 /opt/gcc-arm-none-eabi/7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-wctomb_r.o)
+ .bss           0x00000000100005d0        0x0 /opt/gcc-arm-none-eabi/7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-ctype_.o)
+ .bss           0x00000000100005d0        0x0 /opt/gcc-arm-none-eabi/7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-impure.o)
+ *(.bss.*)
+ .bss._PathLocale
+                0x00000000100005d0        0x4 /opt/gcc-arm-none-eabi/7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-locale.o)
+                0x00000000100005d0                _PathLocale
+                0x00000000100005d4                . = ALIGN (0x4)
+                0x00000000100005d4                __foot_bss = .
+ COMMON         0x00000000100005d4      0x1ba /tmp/ccSZWKzS.o
+                0x00000000100005d4                mask_p
+                0x00000000100005d9                mask
+                0x00000000100005de                sbox_masked
+                0x00000000100006de                rk_masked
+ COMMON         0x000000001000078e        0x4 /home/vagrant/share/COMS30010_LAB/scale-hw/target/lpc1313fbd48/build/lib/libscale.a(bsp.o)
+                0x000000001000078e                scale_conf
+                [!provide]                        PROVIDE (__load_text, LOADADDR (.text))
+                0x0000000000001820                PROVIDE (__load_data, LOADADDR (.data))
+                0x0000000000001df0                PROVIDE (__load_bss, LOADADDR (.bss))
+                0x0000000010002000                PROVIDE (__tos, (ORIGIN (ram) + LENGTH (ram)))
+OUTPUT(target.elf elf32-littlearm)
+
+.comment        0x0000000000000000       0x7e
+ .comment       0x0000000000000000       0x7e /tmp/ccSZWKzS.o
+                                         0x7f (size before relaxing)
+ .comment       0x000000000000007e       0x7f /home/vagrant/share/COMS30010_LAB/scale-hw/target/lpc1313fbd48/build/lib/libscale.a(scale.o)
+ .comment       0x000000000000007e       0x7f /home/vagrant/share/COMS30010_LAB/scale-hw/target/lpc1313fbd48/build/lib/libscale.a(bsp.o)
+
+.ARM.attributes
+                0x0000000000000000       0x31
+ .ARM.attributes
+                0x0000000000000000       0x33 /tmp/ccSZWKzS.o
+ .ARM.attributes
+                0x0000000000000033       0x33 /home/vagrant/share/COMS30010_LAB/scale-hw/target/lpc1313fbd48/build/lib/libscale.a(scale.o)
+ .ARM.attributes
+                0x0000000000000066       0x33 /home/vagrant/share/COMS30010_LAB/scale-hw/target/lpc1313fbd48/build/lib/libscale.a(bsp.o)
+ .ARM.attributes
+                0x0000000000000099       0x21 /home/vagrant/share/COMS30010_LAB/scale-hw/target/lpc1313fbd48/build/lib/libscale.a(lpc13xx.o)
+ .ARM.attributes
+                0x00000000000000ba       0x21 /home/vagrant/share/COMS30010_LAB/scale-hw/target/lpc1313fbd48/build/lib/libscale.a(crt0.o)
+ .ARM.attributes
+                0x00000000000000db       0x2d /opt/gcc-arm-none-eabi/7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-itoa.o)
+ .ARM.attributes
+                0x0000000000000108       0x2d /opt/gcc-arm-none-eabi/7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-locale.o)
+ .ARM.attributes
+                0x0000000000000135       0x2d /opt/gcc-arm-none-eabi/7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-mbtowc_r.o)
+ .ARM.attributes
+                0x0000000000000162       0x2d /opt/gcc-arm-none-eabi/7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-memcmp.o)
+ .ARM.attributes
+                0x000000000000018f       0x1b /opt/gcc-arm-none-eabi/7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-strcmp.o)
+ .ARM.attributes
+                0x00000000000001aa       0x2d /opt/gcc-arm-none-eabi/7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-strlen-stub.o)
+ .ARM.attributes
+                0x00000000000001d7       0x2d /opt/gcc-arm-none-eabi/7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-strtol.o)
+ .ARM.attributes
+                0x0000000000000204       0x2d /opt/gcc-arm-none-eabi/7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-utoa.o)
+ .ARM.attributes
+                0x0000000000000231       0x2d /opt/gcc-arm-none-eabi/7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-wctomb_r.o)
+ .ARM.attributes
+                0x000000000000025e       0x2d /opt/gcc-arm-none-eabi/7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-ctype_.o)
+ .ARM.attributes
+                0x000000000000028b       0x2d /opt/gcc-arm-none-eabi/7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-impure.o)
+
+.debug_frame    0x0000000000000000      0x2a4
+ .debug_frame   0x0000000000000000       0x3c /opt/gcc-arm-none-eabi/7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-itoa.o)
+ .debug_frame   0x000000000000003c       0x6c /opt/gcc-arm-none-eabi/7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-locale.o)
+ .debug_frame   0x00000000000000a8       0x4c /opt/gcc-arm-none-eabi/7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-mbtowc_r.o)
+ .debug_frame   0x00000000000000f4       0x38 /opt/gcc-arm-none-eabi/7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-memcmp.o)
+ .debug_frame   0x000000000000012c       0x34 /opt/gcc-arm-none-eabi/7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-strcmp.o)
+ .debug_frame   0x0000000000000160       0x20 /opt/gcc-arm-none-eabi/7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-strlen-stub.o)
+ .debug_frame   0x0000000000000180       0x9c /opt/gcc-arm-none-eabi/7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-strtol.o)
+ .debug_frame   0x000000000000021c       0x4c /opt/gcc-arm-none-eabi/7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-utoa.o)
+ .debug_frame   0x0000000000000268       0x3c /opt/gcc-arm-none-eabi/7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-wctomb_r.o)
